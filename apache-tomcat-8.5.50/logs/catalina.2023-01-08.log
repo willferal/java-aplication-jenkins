@@ -1,0 +1,48 @@
+08-Jan-2023 16:15:08.976 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+08-Jan-2023 16:15:09.001 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+08-Jan-2023 16:15:09.002 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+08-Jan-2023 16:15:09.002 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Jan-2023 16:15:09.002 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-56-generic
+08-Jan-2023 16:15:09.002 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jan-2023 16:15:09.002 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_352-8u352-ga-1~22.04-b08
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/will-feral/curso-jenkins/apache-tomcat-8.5.50
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/will-feral/curso-jenkins/apache-tomcat-8.5.50
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/conf/logging.properties
+08-Jan-2023 16:15:09.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/will-feral/curso-jenkins/apache-tomcat-8.5.50
+08-Jan-2023 16:15:09.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/will-feral/curso-jenkins/apache-tomcat-8.5.50
+08-Jan-2023 16:15:09.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/temp
+08-Jan-2023 16:15:09.005 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Jan-2023 16:15:09.260 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+08-Jan-2023 16:15:09.333 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jan-2023 16:15:09.348 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Jan-2023 16:15:09.350 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jan-2023 16:15:09.350 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1484 ms
+08-Jan-2023 16:15:09.434 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jan-2023 16:15:09.434 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+08-Jan-2023 16:15:09.690 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+08-Jan-2023 16:15:24.643 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2023 16:15:24.791 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+08-Jan-2023 16:15:24.834 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [15,144] ms
+08-Jan-2023 16:15:24.941 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks.war]
+08-Jan-2023 16:15:33.853 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jan-2023 16:15:33.882 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [8,941] ms
+08-Jan-2023 16:15:33.883 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/ROOT]
+08-Jan-2023 16:15:34.111 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/ROOT] has finished in [228] ms
+08-Jan-2023 16:15:34.111 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/docs]
+08-Jan-2023 16:15:34.816 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/docs] has finished in [704] ms
+08-Jan-2023 16:15:34.816 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/manager]
+08-Jan-2023 16:15:35.480 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/manager] has finished in [664] ms
+08-Jan-2023 16:15:35.481 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/examples]
+08-Jan-2023 16:15:40.442 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/examples] has finished in [4,961] ms
+08-Jan-2023 16:15:40.443 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/host-manager]
+08-Jan-2023 16:15:40.559 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/host-manager] has finished in [116] ms
+08-Jan-2023 16:15:40.610 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+08-Jan-2023 16:15:40.637 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Jan-2023 16:15:40.639 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 31288 ms

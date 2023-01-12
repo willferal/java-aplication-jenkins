@@ -1,0 +1,24 @@
+11-Jan-2023 14:03:35.427 INFORMAÇÕES [http-nio-8001-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:03:37.254 INFORMAÇÕES [http-nio-8001-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:03:39.270 INFORMAÇÕES [http-nio-8001-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+11-Jan-2023 14:04:11.130 INFORMAÇÕES [http-nio-8001-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+11-Jan-2023 14:04:11.130 INFORMAÇÕES [http-nio-8001-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+11-Jan-2023 14:09:12.891 INFORMAÇÕES [http-nio-8001-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:09:12.893 INFORMAÇÕES [http-nio-8001-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:09:12.926 INFORMAÇÕES [http-nio-8001-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks'
+11-Jan-2023 14:09:14.171 INFORMAÇÕES [http-nio-8001-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks'
+11-Jan-2023 14:09:14.171 INFORMAÇÕES [http-nio-8001-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks.war
+11-Jan-2023 14:12:48.781 INFORMAÇÕES [http-nio-8001-exec-60] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:12:53.081 INFORMAÇÕES [http-nio-8001-exec-56] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/tasks-backend'
+11-Jan-2023 14:12:53.659 INFORMAÇÕES [http-nio-8001-exec-56] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:12:57.515 INFORMAÇÕES [http-nio-8001-exec-59] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/tasks'
+11-Jan-2023 14:12:58.068 INFORMAÇÕES [http-nio-8001-exec-59] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:21:36.408 INFORMAÇÕES [http-nio-8001-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:21:38.044 INFORMAÇÕES [http-nio-8001-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+11-Jan-2023 14:21:38.104 INFORMAÇÕES [http-nio-8001-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+11-Jan-2023 14:24:47.671 INFORMAÇÕES [http-nio-8001-exec-65] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/tasks'
+11-Jan-2023 14:24:47.708 INFORMAÇÕES [http-nio-8001-exec-65] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:32:51.624 INFORMAÇÕES [http-nio-8001-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2023 14:32:52.009 INFORMAÇÕES [http-nio-8001-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks'
+11-Jan-2023 14:32:52.010 INFORMAÇÕES [http-nio-8001-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/will-feral/curso-jenkins/apache-tomcat-8.5.50/webapps/tasks.war
+11-Jan-2023 16:23:26.217 INFORMAÇÕES [http-nio-8001-exec-68] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
