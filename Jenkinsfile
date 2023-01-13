@@ -10,7 +10,7 @@ pipeline{
 
         stage('Deploy Backend'){
             steps{
-                deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks-backend', war: 'target/ta sks-backend.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks-backend', war: 'tasks-backend/target/tasks-backend.war'
             }
         }
 
@@ -20,7 +20,7 @@ pipeline{
                 dir('frontend'){
                     git credentialsId: 'github_login', url: 'http://github.com/willferal/tasks-frontend'
                     sh 'mvn clean package'
-                    deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks', war: 'target/tasks.war'
+                    deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks', war: 'tasks-front/target/tasks.war'
                 }
             }
         }
