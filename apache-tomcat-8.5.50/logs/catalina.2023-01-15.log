@@ -1,0 +1,1 @@
+15-Jan-2023 13:04:49.175 ADVERTÊNCIA [http-nio-8001-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.

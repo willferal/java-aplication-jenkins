@@ -1,0 +1,13 @@
+127.0.0.1 - willferal [15/Jan/2023:13:04:19 -0300] "POST /manager/html/deploy?org.apache.catalina.filters.CSRF_NONCE=2B7A497CFFE7874DFF874266098FAB9B HTTP/1.1" 403 3529
+127.0.0.1 - - [15/Jan/2023:13:04:36 -0300] "GET / HTTP/1.1" 200 11414
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /tomcat.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /tomcat.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /bg-nav.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /asf-logo-wide.svg HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /bg-middle.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /bg-upper.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:37 -0300] "GET /bg-button.png HTTP/1.1" 304 -
+127.0.0.1 - willferal [15/Jan/2023:13:04:39 -0300] "GET /manager/html HTTP/1.1" 200 20963
+127.0.0.1 - - [15/Jan/2023:13:04:39 -0300] "GET /manager/images/asf-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [15/Jan/2023:13:04:39 -0300] "GET /manager/images/tomcat.gif HTTP/1.1" 304 -
+127.0.0.1 - willferal [15/Jan/2023:13:04:59 -0300] "POST /manager/html/start?path=/tasks-backend&org.apache.catalina.filters.CSRF_NONCE=A7415DA7E0590CCBB9A872FF92DF773D HTTP/1.1" 200 21222
